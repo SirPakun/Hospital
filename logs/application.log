@@ -1,0 +1,452 @@
+2025-08-21 03:01:04.189 [Thread-1] INFO  entities.PatientThread - Patient{name='Egor', waitingTime=14, takingTime=5, health=2} just came in FIRST_CABINET for 5 seconds
+2025-08-21 03:01:04.189 [Thread-4] INFO  entities.PatientThread - Patient{name='Maks', waitingTime=12, takingTime=5, health=1} just came in THIRD_CABINET for 5 seconds
+2025-08-21 03:01:04.189 [Thread-0] INFO  entities.PatientThread - Patient{name='Gleb', waitingTime=15, takingTime=5, health=2} just came in SECOND_CABINET for 5 seconds
+2025-08-21 03:01:09.211 [Thread-4] INFO  entities.PatientThread - Patient{name='Maks', waitingTime=12, takingTime=5, health=3} finished
+2025-08-21 03:01:09.211 [Thread-1] INFO  entities.PatientThread - Patient{name='Egor', waitingTime=14, takingTime=5, health=1} finished
+2025-08-21 03:01:09.211 [Thread-0] INFO  entities.PatientThread - Patient{name='Gleb', waitingTime=15, takingTime=5, health=1} finished
+2025-08-21 03:01:09.211 [Thread-3] INFO  entities.PatientThread - Patient{name='Danik', waitingTime=8, takingTime=4, health=2} just came in THIRD_CABINET for 4 seconds
+2025-08-21 03:01:09.211 [Thread-2] INFO  entities.PatientThread - Patient{name='Maks', waitingTime=12, takingTime=4, health=3} just came in FIRST_CABINET for 4 seconds
+2025-08-21 03:01:09.211 [Thread-6] INFO  entities.PatientThread - Patient{name='Danik', waitingTime=11, takingTime=7, health=3} just came in SECOND_CABINET for 7 seconds
+2025-08-21 03:01:12.189 [Thread-9] INFO  entities.PatientThread - Patient Patient{name='Roma', waitingTime=8, takingTime=5, health=2} is out
+2025-08-21 03:01:12.189 [Thread-13] INFO  entities.PatientThread - Patient Patient{name='Maks', waitingTime=8, takingTime=4, health=3} is out
+2025-08-21 03:01:12.191 [Thread-32] INFO  entities.PatientThread - Patient Patient{name='Nikita', waitingTime=8, takingTime=5, health=2} is out
+2025-08-21 03:01:12.200 [Thread-19] INFO  entities.PatientThread - Patient Patient{name='Roma', waitingTime=8, takingTime=5, health=1} is out
+2025-08-21 03:01:12.200 [Thread-40] INFO  entities.PatientThread - Patient Patient{name='Danik', waitingTime=8, takingTime=4, health=1} is out
+2025-08-21 03:01:12.200 [Thread-49] INFO  entities.PatientThread - Patient Patient{name='Nikita', waitingTime=8, takingTime=7, health=2} is out
+2025-08-21 03:01:12.200 [Thread-51] INFO  entities.PatientThread - Patient Patient{name='Nikita', waitingTime=8, takingTime=6, health=3} is out
+2025-08-21 03:01:12.202 [Thread-66] INFO  entities.PatientThread - Patient Patient{name='Gleb', waitingTime=8, takingTime=6, health=3} is out
+2025-08-21 03:01:12.202 [Thread-61] INFO  entities.PatientThread - Patient Patient{name='Maks', waitingTime=8, takingTime=4, health=2} is out
+2025-08-21 03:01:12.203 [Thread-74] INFO  entities.PatientThread - Patient Patient{name='Roma', waitingTime=8, takingTime=5, health=2} is out
+2025-08-21 03:01:12.204 [Thread-76] INFO  entities.PatientThread - Patient Patient{name='Nikita', waitingTime=8, takingTime=7, health=2} is out
+2025-08-21 03:01:12.205 [Thread-88] INFO  entities.PatientThread - Patient Patient{name='Nikita', waitingTime=8, takingTime=4, health=1} is out
+2025-08-21 03:01:13.191 [Thread-21] INFO  entities.PatientThread - Patient Patient{name='Vanya', waitingTime=9, takingTime=6, health=3} is out
+2025-08-21 03:01:13.191 [Thread-22] INFO  entities.PatientThread - Patient Patient{name='Nikita', waitingTime=9, takingTime=6, health=2} is out
+2025-08-21 03:01:13.192 [Thread-27] INFO  entities.PatientThread - Patient Patient{name='Gleb', waitingTime=9, takingTime=6, health=2} is out
+2025-08-21 03:01:13.199 [Thread-55] INFO  entities.PatientThread - Patient Patient{name='Roma', waitingTime=9, takingTime=4, health=3} is out
+2025-08-21 03:01:13.199 [Thread-52] INFO  entities.PatientThread - Patient Patient{name='Nikita', waitingTime=9, takingTime=4, health=3} is out
+2025-08-21 03:01:13.199 [Thread-42] INFO  entities.PatientThread - Patient Patient{name='Danik', waitingTime=9, takingTime=4, health=1} is out
+2025-08-21 03:01:13.199 [Thread-41] INFO  entities.PatientThread - Patient Patient{name='Nikita', waitingTime=9, takingTime=7, health=3} is out
+2025-08-21 03:01:13.201 [Thread-48] INFO  entities.PatientThread - Patient Patient{name='Danik', waitingTime=9, takingTime=7, health=2} is out
+2025-08-21 03:01:13.201 [Thread-56] INFO  entities.PatientThread - Patient Patient{name='Dima', waitingTime=9, takingTime=4, health=2} is out
+2025-08-21 03:01:13.203 [Thread-65] INFO  entities.PatientThread - Patient Patient{name='Maks', waitingTime=9, takingTime=4, health=2} is out
+2025-08-21 03:01:13.203 [Thread-68] INFO  entities.PatientThread - Patient Patient{name='Dima', waitingTime=9, takingTime=4, health=2} is out
+2025-08-21 03:01:13.204 [Thread-71] INFO  entities.PatientThread - Patient Patient{name='Vanya', waitingTime=9, takingTime=4, health=3} is out
+2025-08-21 03:01:13.208 [Thread-90] INFO  entities.PatientThread - Patient Patient{name='Roma', waitingTime=9, takingTime=6, health=2} is out
+2025-08-21 03:01:13.209 [Thread-97] INFO  entities.PatientThread - Patient Patient{name='Dima', waitingTime=9, takingTime=7, health=1} is out
+2025-08-21 03:01:13.209 [Thread-96] INFO  entities.PatientThread - Patient Patient{name='Egor', waitingTime=9, takingTime=5, health=2} is out
+2025-08-21 03:01:13.213 [Thread-3] INFO  entities.PatientThread - Patient{name='Danik', waitingTime=8, takingTime=4, health=2} finished
+2025-08-21 03:01:13.213 [Thread-2] INFO  entities.PatientThread - Patient{name='Maks', waitingTime=12, takingTime=4, health=3} finished
+2025-08-21 03:01:13.213 [Thread-5] INFO  entities.PatientThread - Patient{name='Roma', waitingTime=11, takingTime=6, health=3} just came in FIRST_CABINET for 6 seconds
+2025-08-21 03:01:13.213 [Thread-15] INFO  entities.PatientThread - Patient{name='Nikita', waitingTime=10, takingTime=5, health=2} just came in THIRD_CABINET for 5 seconds
+2025-08-21 03:01:14.191 [Thread-25] INFO  entities.PatientThread - Patient Patient{name='Vanya', waitingTime=10, takingTime=6, health=1} is out
+2025-08-21 03:01:14.191 [Thread-26] INFO  entities.PatientThread - Patient Patient{name='Vanya', waitingTime=10, takingTime=4, health=1} is out
+2025-08-21 03:01:14.191 [Thread-17] INFO  entities.PatientThread - Patient Patient{name='Roma', waitingTime=10, takingTime=7, health=3} is out
+2025-08-21 03:01:14.199 [Thread-16] INFO  entities.PatientThread - Patient Patient{name='Vanya', waitingTime=10, takingTime=5, health=2} is out
+2025-08-21 03:01:14.200 [Thread-62] INFO  entities.PatientThread - Patient Patient{name='Dima', waitingTime=10, takingTime=5, health=2} is out
+2025-08-21 03:01:14.201 [Thread-58] INFO  entities.PatientThread - Patient Patient{name='Nikita', waitingTime=10, takingTime=5, health=1} is out
+2025-08-21 03:01:14.202 [Thread-67] INFO  entities.PatientThread - Patient Patient{name='Roma', waitingTime=10, takingTime=4, health=2} is out
+2025-08-21 03:01:14.202 [Thread-63] INFO  entities.PatientThread - Patient Patient{name='Roma', waitingTime=10, takingTime=6, health=2} is out
+2025-08-21 03:01:14.203 [Thread-69] INFO  entities.PatientThread - Patient Patient{name='Maks', waitingTime=10, takingTime=7, health=3} is out
+2025-08-21 03:01:14.205 [Thread-78] INFO  entities.PatientThread - Patient Patient{name='Roma', waitingTime=10, takingTime=7, health=3} is out
+2025-08-21 03:01:14.209 [Thread-93] INFO  entities.PatientThread - Patient Patient{name='Danik', waitingTime=10, takingTime=7, health=3} is out
+2025-08-21 03:01:14.209 [Thread-99] INFO  entities.PatientThread - Patient Patient{name='Roma', waitingTime=10, takingTime=6, health=2} is out
+2025-08-21 03:01:15.190 [Thread-14] INFO  entities.PatientThread - Patient Patient{name='Roma', waitingTime=11, takingTime=5, health=1} is out
+2025-08-21 03:01:15.193 [Thread-29] INFO  entities.PatientThread - Patient Patient{name='Egor', waitingTime=11, takingTime=7, health=1} is out
+2025-08-21 03:01:15.201 [Thread-46] INFO  entities.PatientThread - Patient Patient{name='Egor', waitingTime=11, takingTime=4, health=2} is out
+2025-08-21 03:01:15.201 [Thread-60] INFO  entities.PatientThread - Patient Patient{name='Egor', waitingTime=11, takingTime=4, health=2} is out
+2025-08-21 03:01:15.201 [Thread-47] INFO  entities.PatientThread - Patient Patient{name='Dima', waitingTime=11, takingTime=6, health=3} is out
+2025-08-21 03:01:15.201 [Thread-57] INFO  entities.PatientThread - Patient Patient{name='Danik', waitingTime=11, takingTime=7, health=3} is out
+2025-08-21 03:01:15.203 [Thread-70] INFO  entities.PatientThread - Patient Patient{name='Danik', waitingTime=11, takingTime=7, health=2} is out
+2025-08-21 03:01:15.205 [Thread-72] INFO  entities.PatientThread - Patient Patient{name='Egor', waitingTime=11, takingTime=6, health=2} is out
+2025-08-21 03:01:15.205 [Thread-85] INFO  entities.PatientThread - Patient Patient{name='Vanya', waitingTime=11, takingTime=7, health=3} is out
+2025-08-21 03:01:15.205 [Thread-80] INFO  entities.PatientThread - Patient Patient{name='Vanya', waitingTime=11, takingTime=6, health=1} is out
+2025-08-21 03:01:15.205 [Thread-83] INFO  entities.PatientThread - Patient Patient{name='Gleb', waitingTime=11, takingTime=7, health=1} is out
+2025-08-21 03:01:15.209 [Thread-94] INFO  entities.PatientThread - Patient Patient{name='Dima', waitingTime=11, takingTime=4, health=2} is out
+2025-08-21 03:01:15.210 [Thread-98] INFO  entities.PatientThread - Patient Patient{name='Roma', waitingTime=11, takingTime=4, health=2} is out
+2025-08-21 03:01:16.191 [Thread-23] INFO  entities.PatientThread - Patient Patient{name='Dima', waitingTime=12, takingTime=6, health=3} is out
+2025-08-21 03:01:16.191 [Thread-7] INFO  entities.PatientThread - Patient Patient{name='Roma', waitingTime=12, takingTime=5, health=2} is out
+2025-08-21 03:01:16.200 [Thread-30] INFO  entities.PatientThread - Patient Patient{name='Vanya', waitingTime=12, takingTime=4, health=2} is out
+2025-08-21 03:01:16.200 [Thread-33] INFO  entities.PatientThread - Patient Patient{name='Egor', waitingTime=12, takingTime=7, health=2} is out
+2025-08-21 03:01:16.200 [Thread-54] INFO  entities.PatientThread - Patient Patient{name='Vanya', waitingTime=12, takingTime=4, health=1} is out
+2025-08-21 03:01:16.203 [Thread-73] INFO  entities.PatientThread - Patient Patient{name='Vanya', waitingTime=12, takingTime=5, health=1} is out
+2025-08-21 03:01:16.204 [Thread-84] INFO  entities.PatientThread - Patient Patient{name='Roma', waitingTime=12, takingTime=5, health=3} is out
+2025-08-21 03:01:16.204 [Thread-75] INFO  entities.PatientThread - Patient Patient{name='Egor', waitingTime=12, takingTime=5, health=3} is out
+2025-08-21 03:01:16.204 [Thread-81] INFO  entities.PatientThread - Patient Patient{name='Egor', waitingTime=12, takingTime=5, health=2} is out
+2025-08-21 03:01:16.213 [Thread-6] INFO  entities.PatientThread - Patient{name='Danik', waitingTime=11, takingTime=7, health=1} finished
+2025-08-21 03:01:16.213 [Thread-12] INFO  entities.PatientThread - Patient{name='Egor', waitingTime=14, takingTime=5, health=2} just came in SECOND_CABINET for 5 seconds
+2025-08-21 03:01:17.190 [Thread-8] INFO  entities.PatientThread - Patient Patient{name='Maks', waitingTime=13, takingTime=4, health=1} is out
+2025-08-21 03:01:17.190 [Thread-20] INFO  entities.PatientThread - Patient Patient{name='Egor', waitingTime=13, takingTime=7, health=2} is out
+2025-08-21 03:01:17.201 [Thread-38] INFO  entities.PatientThread - Patient Patient{name='Gleb', waitingTime=13, takingTime=5, health=2} is out
+2025-08-21 03:01:17.201 [Thread-35] INFO  entities.PatientThread - Patient Patient{name='Gleb', waitingTime=13, takingTime=4, health=3} is out
+2025-08-21 03:01:17.202 [Thread-64] INFO  entities.PatientThread - Patient Patient{name='Gleb', waitingTime=13, takingTime=7, health=2} is out
+2025-08-21 03:01:17.204 [Thread-79] INFO  entities.PatientThread - Patient Patient{name='Egor', waitingTime=13, takingTime=5, health=3} is out
+2025-08-21 03:01:17.206 [Thread-86] INFO  entities.PatientThread - Patient Patient{name='Dima', waitingTime=13, takingTime=5, health=3} is out
+2025-08-21 03:01:17.206 [Thread-87] INFO  entities.PatientThread - Patient Patient{name='Dima', waitingTime=13, takingTime=5, health=3} is out
+2025-08-21 03:01:17.208 [Thread-89] INFO  entities.PatientThread - Patient Patient{name='Dima', waitingTime=13, takingTime=5, health=1} is out
+2025-08-21 03:01:17.208 [Thread-92] INFO  entities.PatientThread - Patient Patient{name='Maks', waitingTime=13, takingTime=6, health=2} is out
+2025-08-21 03:01:18.191 [Thread-18] INFO  entities.PatientThread - Patient Patient{name='Vanya', waitingTime=14, takingTime=7, health=1} is out
+2025-08-21 03:01:18.191 [Thread-24] INFO  entities.PatientThread - Patient Patient{name='Maks', waitingTime=14, takingTime=7, health=3} is out
+2025-08-21 03:01:18.191 [Thread-39] INFO  entities.PatientThread - Patient Patient{name='Vanya', waitingTime=14, takingTime=4, health=1} is out
+2025-08-21 03:01:18.192 [Thread-53] INFO  entities.PatientThread - Patient Patient{name='Vanya', waitingTime=14, takingTime=6, health=2} is out
+2025-08-21 03:01:18.201 [Thread-59] INFO  entities.PatientThread - Patient Patient{name='Nikita', waitingTime=14, takingTime=7, health=2} is out
+2025-08-21 03:01:18.201 [Thread-31] INFO  entities.PatientThread - Patient Patient{name='Danik', waitingTime=14, takingTime=5, health=1} is out
+2025-08-21 03:01:18.201 [Thread-36] INFO  entities.PatientThread - Patient Patient{name='Roma', waitingTime=14, takingTime=7, health=2} is out
+2025-08-21 03:01:18.201 [Thread-34] INFO  entities.PatientThread - Patient Patient{name='Nikita', waitingTime=14, takingTime=7, health=1} is out
+2025-08-21 03:01:18.204 [Thread-82] INFO  entities.PatientThread - Patient Patient{name='Dima', waitingTime=14, takingTime=6, health=2} is out
+2025-08-21 03:01:18.209 [Thread-95] INFO  entities.PatientThread - Patient Patient{name='Vanya', waitingTime=14, takingTime=4, health=3} is out
+2025-08-21 03:01:18.215 [Thread-15] INFO  entities.PatientThread - Patient{name='Nikita', waitingTime=10, takingTime=5, health=2} finished
+2025-08-21 03:01:18.215 [Thread-28] INFO  entities.PatientThread - Patient{name='Maks', waitingTime=15, takingTime=4, health=1} just came in THIRD_CABINET for 4 seconds
+2025-08-21 03:01:19.189 [Thread-10] INFO  entities.PatientThread - Patient Patient{name='Nikita', waitingTime=15, takingTime=5, health=3} is out
+2025-08-21 03:01:19.189 [Thread-11] INFO  entities.PatientThread - Patient Patient{name='Egor', waitingTime=15, takingTime=6, health=3} is out
+2025-08-21 03:01:19.201 [Thread-50] INFO  entities.PatientThread - Patient Patient{name='Nikita', waitingTime=15, takingTime=5, health=2} is out
+2025-08-21 03:01:19.201 [Thread-43] INFO  entities.PatientThread - Patient Patient{name='Danik', waitingTime=15, takingTime=6, health=3} is out
+2025-08-21 03:01:19.201 [Thread-37] INFO  entities.PatientThread - Patient Patient{name='Vanya', waitingTime=15, takingTime=4, health=1} is out
+2025-08-21 03:01:19.201 [Thread-44] INFO  entities.PatientThread - Patient Patient{name='Dima', waitingTime=15, takingTime=4, health=3} is out
+2025-08-21 03:01:19.201 [Thread-45] INFO  entities.PatientThread - Patient Patient{name='Nikita', waitingTime=15, takingTime=7, health=3} is out
+2025-08-21 03:01:19.204 [Thread-77] INFO  entities.PatientThread - Patient Patient{name='Nikita', waitingTime=15, takingTime=5, health=2} is out
+2025-08-21 03:01:19.208 [Thread-91] INFO  entities.PatientThread - Patient Patient{name='Egor', waitingTime=15, takingTime=6, health=2} is out
+2025-08-21 03:01:19.215 [Thread-5] INFO  entities.PatientThread - Patient{name='Roma', waitingTime=11, takingTime=6, health=2} finished
+2025-08-21 03:01:21.224 [Thread-12] INFO  entities.PatientThread - Patient{name='Egor', waitingTime=14, takingTime=5, health=3} finished
+2025-08-21 03:01:22.229 [Thread-28] INFO  entities.PatientThread - Patient{name='Maks', waitingTime=15, takingTime=4, health=3} finished
+2025-08-21 03:01:22.230 [main] INFO  by.kirienko.utils.CabinetStatistic - Cabinet FIRST_CABINET, max patient : 4; serviced patients : 3; leaved patients : 30
+2025-08-21 03:01:22.230 [main] INFO  by.kirienko.utils.CabinetStatistic - Cabinet SECOND_CABINET, max patient : 4; serviced patients : 3; leaved patients : 28
+2025-08-21 03:01:22.230 [main] INFO  by.kirienko.utils.CabinetStatistic - Cabinet THIRD_CABINET, max patient : 4; serviced patients : 4; leaved patients : 32
+2025-08-21 10:24:36.280 [Thread-0] INFO  entities.PatientThread - Patient{name='Gleb', waitingTime=15, takingTime=6, health=1} just came in SECOND_CABINET for 6 seconds
+2025-08-21 10:24:36.280 [Thread-6] INFO  entities.PatientThread - Patient{name='Maks', waitingTime=9, takingTime=6, health=3} just came in FIRST_CABINET for 6 seconds
+2025-08-21 10:24:36.280 [Thread-1] INFO  entities.PatientThread - Patient{name='Danik', waitingTime=12, takingTime=5, health=1} just came in THIRD_CABINET for 5 seconds
+2025-08-21 10:24:41.303 [Thread-1] INFO  entities.PatientThread - Patient{name='Danik', waitingTime=12, takingTime=5, health=1} finished
+2025-08-21 10:24:41.303 [Thread-8] INFO  entities.PatientThread - Patient{name='Gleb', waitingTime=12, takingTime=7, health=2} just came in THIRD_CABINET for 7 seconds
+2025-08-21 10:24:42.301 [Thread-0] INFO  entities.PatientThread - Patient{name='Gleb', waitingTime=15, takingTime=6, health=3} finished
+2025-08-21 10:24:42.301 [Thread-6] INFO  entities.PatientThread - Patient{name='Maks', waitingTime=9, takingTime=6, health=2} finished
+2025-08-21 10:24:42.301 [Thread-2] INFO  entities.PatientThread - Patient{name='Danik', waitingTime=11, takingTime=5, health=3} just came in SECOND_CABINET for 5 seconds
+2025-08-21 10:24:42.301 [Thread-12] INFO  entities.PatientThread - Patient{name='Gleb', waitingTime=8, takingTime=4, health=1} just came in FIRST_CABINET for 4 seconds
+2025-08-21 10:24:44.280 [Thread-11] INFO  entities.PatientThread - Patient Patient{name='Vanya', waitingTime=8, takingTime=7, health=2} is out
+2025-08-21 10:24:44.280 [Thread-9] INFO  entities.PatientThread - Patient Patient{name='Gleb', waitingTime=8, takingTime=6, health=2} is out
+2025-08-21 10:24:44.280 [Thread-21] INFO  entities.PatientThread - Patient Patient{name='Gleb', waitingTime=8, takingTime=5, health=3} is out
+2025-08-21 10:24:44.280 [Thread-29] INFO  entities.PatientThread - Patient Patient{name='Vanya', waitingTime=8, takingTime=6, health=2} is out
+2025-08-21 10:24:44.288 [Thread-34] INFO  entities.PatientThread - Patient Patient{name='Danik', waitingTime=8, takingTime=7, health=2} is out
+2025-08-21 10:24:44.289 [Thread-55] INFO  entities.PatientThread - Patient Patient{name='Dima', waitingTime=8, takingTime=6, health=1} is out
+2025-08-21 10:24:44.289 [Thread-52] INFO  entities.PatientThread - Patient Patient{name='Vanya', waitingTime=8, takingTime=6, health=2} is out
+2025-08-21 10:24:44.290 [Thread-53] INFO  entities.PatientThread - Patient Patient{name='Maks', waitingTime=8, takingTime=5, health=1} is out
+2025-08-21 10:24:44.291 [Thread-66] INFO  entities.PatientThread - Patient Patient{name='Dima', waitingTime=8, takingTime=6, health=1} is out
+2025-08-21 10:24:44.291 [Thread-68] INFO  entities.PatientThread - Patient Patient{name='Roma', waitingTime=8, takingTime=6, health=3} is out
+2025-08-21 10:24:44.295 [Thread-82] INFO  entities.PatientThread - Patient Patient{name='Danik', waitingTime=8, takingTime=4, health=1} is out
+2025-08-21 10:24:44.295 [Thread-83] INFO  entities.PatientThread - Patient Patient{name='Nikita', waitingTime=8, takingTime=5, health=2} is out
+2025-08-21 10:24:44.298 [Thread-98] INFO  entities.PatientThread - Patient Patient{name='Dima', waitingTime=8, takingTime=7, health=2} is out
+2025-08-21 10:24:45.280 [Thread-19] INFO  entities.PatientThread - Patient Patient{name='Nikita', waitingTime=9, takingTime=4, health=1} is out
+2025-08-21 10:24:45.280 [Thread-22] INFO  entities.PatientThread - Patient Patient{name='Nikita', waitingTime=9, takingTime=7, health=1} is out
+2025-08-21 10:24:45.288 [Thread-43] INFO  entities.PatientThread - Patient Patient{name='Danik', waitingTime=9, takingTime=5, health=1} is out
+2025-08-21 10:24:45.290 [Thread-58] INFO  entities.PatientThread - Patient Patient{name='Dima', waitingTime=9, takingTime=4, health=3} is out
+2025-08-21 10:24:45.292 [Thread-59] INFO  entities.PatientThread - Patient Patient{name='Maks', waitingTime=9, takingTime=5, health=2} is out
+2025-08-21 10:24:45.296 [Thread-89] INFO  entities.PatientThread - Patient Patient{name='Roma', waitingTime=9, takingTime=6, health=1} is out
+2025-08-21 10:24:45.296 [Thread-90] INFO  entities.PatientThread - Patient Patient{name='Vanya', waitingTime=9, takingTime=7, health=2} is out
+2025-08-21 10:24:46.281 [Thread-42] INFO  entities.PatientThread - Patient Patient{name='Maks', waitingTime=10, takingTime=6, health=3} is out
+2025-08-21 10:24:46.289 [Thread-39] INFO  entities.PatientThread - Patient Patient{name='Roma', waitingTime=10, takingTime=6, health=2} is out
+2025-08-21 10:24:46.289 [Thread-27] INFO  entities.PatientThread - Patient Patient{name='Nikita', waitingTime=10, takingTime=5, health=2} is out
+2025-08-21 10:24:46.289 [Thread-48] INFO  entities.PatientThread - Patient Patient{name='Egor', waitingTime=10, takingTime=6, health=2} is out
+2025-08-21 10:24:46.292 [Thread-65] INFO  entities.PatientThread - Patient Patient{name='Danik', waitingTime=10, takingTime=5, health=1} is out
+2025-08-21 10:24:46.292 [Thread-72] INFO  entities.PatientThread - Patient Patient{name='Egor', waitingTime=10, takingTime=5, health=1} is out
+2025-08-21 10:24:46.294 [Thread-77] INFO  entities.PatientThread - Patient Patient{name='Gleb', waitingTime=10, takingTime=4, health=3} is out
+2025-08-21 10:24:46.296 [Thread-91] INFO  entities.PatientThread - Patient Patient{name='Dima', waitingTime=10, takingTime=6, health=3} is out
+2025-08-21 10:24:46.296 [Thread-84] INFO  entities.PatientThread - Patient Patient{name='Gleb', waitingTime=10, takingTime=5, health=1} is out
+2025-08-21 10:24:46.304 [Thread-12] INFO  entities.PatientThread - Patient{name='Gleb', waitingTime=8, takingTime=4, health=1} finished
+2025-08-21 10:24:46.305 [Thread-13] INFO  entities.PatientThread - Patient{name='Gleb', waitingTime=13, takingTime=4, health=3} just came in FIRST_CABINET for 4 seconds
+2025-08-21 10:24:47.280 [Thread-10] INFO  entities.PatientThread - Patient Patient{name='Danik', waitingTime=11, takingTime=5, health=2} is out
+2025-08-21 10:24:47.281 [Thread-26] INFO  entities.PatientThread - Patient Patient{name='Danik', waitingTime=11, takingTime=7, health=3} is out
+2025-08-21 10:24:47.288 [Thread-30] INFO  entities.PatientThread - Patient Patient{name='Roma', waitingTime=11, takingTime=7, health=2} is out
+2025-08-21 10:24:47.288 [Thread-50] INFO  entities.PatientThread - Patient Patient{name='Dima', waitingTime=11, takingTime=4, health=2} is out
+2025-08-21 10:24:47.288 [Thread-44] INFO  entities.PatientThread - Patient Patient{name='Nikita', waitingTime=11, takingTime=5, health=3} is out
+2025-08-21 10:24:47.288 [Thread-49] INFO  entities.PatientThread - Patient Patient{name='Roma', waitingTime=11, takingTime=6, health=2} is out
+2025-08-21 10:24:47.288 [Thread-41] INFO  entities.PatientThread - Patient Patient{name='Maks', waitingTime=11, takingTime=5, health=2} is out
+2025-08-21 10:24:47.290 [Thread-63] INFO  entities.PatientThread - Patient Patient{name='Nikita', waitingTime=11, takingTime=7, health=2} is out
+2025-08-21 10:24:47.291 [Thread-67] INFO  entities.PatientThread - Patient Patient{name='Maks', waitingTime=11, takingTime=7, health=3} is out
+2025-08-21 10:24:47.293 [Thread-75] INFO  entities.PatientThread - Patient Patient{name='Dima', waitingTime=11, takingTime=5, health=1} is out
+2025-08-21 10:24:47.293 [Thread-70] INFO  entities.PatientThread - Patient Patient{name='Vanya', waitingTime=11, takingTime=5, health=1} is out
+2025-08-21 10:24:47.293 [Thread-73] INFO  entities.PatientThread - Patient Patient{name='Dima', waitingTime=11, takingTime=5, health=2} is out
+2025-08-21 10:24:47.295 [Thread-92] INFO  entities.PatientThread - Patient Patient{name='Maks', waitingTime=11, takingTime=5, health=2} is out
+2025-08-21 10:24:47.295 [Thread-86] INFO  entities.PatientThread - Patient Patient{name='Dima', waitingTime=11, takingTime=4, health=3} is out
+2025-08-21 10:24:47.296 [Thread-94] INFO  entities.PatientThread - Patient Patient{name='Gleb', waitingTime=11, takingTime=4, health=3} is out
+2025-08-21 10:24:47.296 [Thread-95] INFO  entities.PatientThread - Patient Patient{name='Nikita', waitingTime=11, takingTime=4, health=2} is out
+2025-08-21 10:24:47.298 [Thread-99] INFO  entities.PatientThread - Patient Patient{name='Dima', waitingTime=11, takingTime=6, health=1} is out
+2025-08-21 10:24:47.302 [Thread-2] INFO  entities.PatientThread - Patient{name='Danik', waitingTime=11, takingTime=5, health=2} finished
+2025-08-21 10:24:47.302 [Thread-3] INFO  entities.PatientThread - Patient{name='Danik', waitingTime=12, takingTime=4, health=3} just came in SECOND_CABINET for 4 seconds
+2025-08-21 10:24:48.280 [Thread-16] INFO  entities.PatientThread - Patient Patient{name='Maks', waitingTime=12, takingTime=6, health=3} is out
+2025-08-21 10:24:48.281 [Thread-20] INFO  entities.PatientThread - Patient Patient{name='Gleb', waitingTime=12, takingTime=6, health=3} is out
+2025-08-21 10:24:48.281 [Thread-28] INFO  entities.PatientThread - Patient Patient{name='Gleb', waitingTime=12, takingTime=6, health=1} is out
+2025-08-21 10:24:48.289 [Thread-51] INFO  entities.PatientThread - Patient Patient{name='Dima', waitingTime=12, takingTime=6, health=2} is out
+2025-08-21 10:24:48.289 [Thread-35] INFO  entities.PatientThread - Patient Patient{name='Danik', waitingTime=12, takingTime=4, health=2} is out
+2025-08-21 10:24:48.289 [Thread-36] INFO  entities.PatientThread - Patient Patient{name='Egor', waitingTime=12, takingTime=7, health=1} is out
+2025-08-21 10:24:48.290 [Thread-61] INFO  entities.PatientThread - Patient Patient{name='Egor', waitingTime=12, takingTime=7, health=3} is out
+2025-08-21 10:24:48.290 [Thread-62] INFO  entities.PatientThread - Patient Patient{name='Roma', waitingTime=12, takingTime=5, health=1} is out
+2025-08-21 10:24:48.291 [Thread-64] INFO  entities.PatientThread - Patient Patient{name='Maks', waitingTime=12, takingTime=6, health=3} is out
+2025-08-21 10:24:48.293 [Thread-76] INFO  entities.PatientThread - Patient Patient{name='Maks', waitingTime=12, takingTime=7, health=1} is out
+2025-08-21 10:24:48.294 [Thread-81] INFO  entities.PatientThread - Patient Patient{name='Maks', waitingTime=12, takingTime=5, health=2} is out
+2025-08-21 10:24:48.295 [Thread-88] INFO  entities.PatientThread - Patient Patient{name='Dima', waitingTime=12, takingTime=4, health=1} is out
+2025-08-21 10:24:48.297 [Thread-97] INFO  entities.PatientThread - Patient Patient{name='Egor', waitingTime=12, takingTime=6, health=1} is out
+2025-08-21 10:24:48.304 [Thread-8] INFO  entities.PatientThread - Patient{name='Gleb', waitingTime=12, takingTime=7, health=2} finished
+2025-08-21 10:24:48.305 [Thread-5] INFO  entities.PatientThread - Patient{name='Dima', waitingTime=15, takingTime=4, health=3} just came in THIRD_CABINET for 4 seconds
+2025-08-21 10:24:49.281 [Thread-7] INFO  entities.PatientThread - Patient Patient{name='Egor', waitingTime=13, takingTime=7, health=1} is out
+2025-08-21 10:24:49.281 [Thread-18] INFO  entities.PatientThread - Patient Patient{name='Nikita', waitingTime=13, takingTime=4, health=1} is out
+2025-08-21 10:24:49.281 [Thread-32] INFO  entities.PatientThread - Patient Patient{name='Gleb', waitingTime=13, takingTime=4, health=3} is out
+2025-08-21 10:24:49.281 [Thread-4] INFO  entities.PatientThread - Patient Patient{name='Nikita', waitingTime=13, takingTime=6, health=1} is out
+2025-08-21 10:24:49.288 [Thread-40] INFO  entities.PatientThread - Patient Patient{name='Vanya', waitingTime=13, takingTime=6, health=3} is out
+2025-08-21 10:24:49.288 [Thread-45] INFO  entities.PatientThread - Patient Patient{name='Gleb', waitingTime=13, takingTime=5, health=1} is out
+2025-08-21 10:24:49.288 [Thread-46] INFO  entities.PatientThread - Patient Patient{name='Maks', waitingTime=13, takingTime=4, health=2} is out
+2025-08-21 10:24:49.290 [Thread-54] INFO  entities.PatientThread - Patient Patient{name='Gleb', waitingTime=13, takingTime=5, health=2} is out
+2025-08-21 10:24:49.290 [Thread-57] INFO  entities.PatientThread - Patient Patient{name='Dima', waitingTime=13, takingTime=5, health=2} is out
+2025-08-21 10:24:49.292 [Thread-69] INFO  entities.PatientThread - Patient Patient{name='Nikita', waitingTime=13, takingTime=4, health=1} is out
+2025-08-21 10:24:49.293 [Thread-74] INFO  entities.PatientThread - Patient Patient{name='Roma', waitingTime=13, takingTime=6, health=3} is out
+2025-08-21 10:24:49.293 [Thread-78] INFO  entities.PatientThread - Patient Patient{name='Egor', waitingTime=13, takingTime=4, health=3} is out
+2025-08-21 10:24:49.296 [Thread-87] INFO  entities.PatientThread - Patient Patient{name='Nikita', waitingTime=13, takingTime=4, health=2} is out
+2025-08-21 10:24:49.298 [Thread-96] INFO  entities.PatientThread - Patient Patient{name='Danik', waitingTime=13, takingTime=7, health=2} is out
+2025-08-21 10:24:50.281 [Thread-24] INFO  entities.PatientThread - Patient Patient{name='Nikita', waitingTime=14, takingTime=7, health=3} is out
+2025-08-21 10:24:50.281 [Thread-25] INFO  entities.PatientThread - Patient Patient{name='Dima', waitingTime=14, takingTime=7, health=3} is out
+2025-08-21 10:24:50.281 [Thread-23] INFO  entities.PatientThread - Patient Patient{name='Nikita', waitingTime=14, takingTime=7, health=2} is out
+2025-08-21 10:24:50.281 [Thread-31] INFO  entities.PatientThread - Patient Patient{name='Vanya', waitingTime=14, takingTime=5, health=1} is out
+2025-08-21 10:24:50.281 [Thread-15] INFO  entities.PatientThread - Patient Patient{name='Vanya', waitingTime=14, takingTime=4, health=1} is out
+2025-08-21 10:24:50.288 [Thread-47] INFO  entities.PatientThread - Patient Patient{name='Dima', waitingTime=14, takingTime=7, health=3} is out
+2025-08-21 10:24:50.289 [Thread-38] INFO  entities.PatientThread - Patient Patient{name='Dima', waitingTime=14, takingTime=6, health=3} is out
+2025-08-21 10:24:50.290 [Thread-60] INFO  entities.PatientThread - Patient Patient{name='Egor', waitingTime=14, takingTime=6, health=3} is out
+2025-08-21 10:24:50.292 [Thread-71] INFO  entities.PatientThread - Patient Patient{name='Egor', waitingTime=14, takingTime=4, health=1} is out
+2025-08-21 10:24:50.293 [Thread-79] INFO  entities.PatientThread - Patient Patient{name='Maks', waitingTime=14, takingTime=5, health=2} is out
+2025-08-21 10:24:50.295 [Thread-93] INFO  entities.PatientThread - Patient Patient{name='Vanya', waitingTime=14, takingTime=6, health=2} is out
+2025-08-21 10:24:50.306 [Thread-13] INFO  entities.PatientThread - Patient{name='Gleb', waitingTime=13, takingTime=4, health=2} finished
+2025-08-21 10:24:50.306 [Thread-14] INFO  entities.PatientThread - Patient{name='Roma', waitingTime=15, takingTime=7, health=1} just came in FIRST_CABINET for 7 seconds
+2025-08-21 10:24:51.281 [Thread-17] INFO  entities.PatientThread - Patient Patient{name='Egor', waitingTime=15, takingTime=6, health=2} is out
+2025-08-21 10:24:51.281 [Thread-33] INFO  entities.PatientThread - Patient Patient{name='Dima', waitingTime=15, takingTime=4, health=1} is out
+2025-08-21 10:24:51.281 [Thread-37] INFO  entities.PatientThread - Patient Patient{name='Danik', waitingTime=15, takingTime=7, health=1} is out
+2025-08-21 10:24:51.289 [Thread-56] INFO  entities.PatientThread - Patient Patient{name='Danik', waitingTime=15, takingTime=5, health=3} is out
+2025-08-21 10:24:51.293 [Thread-80] INFO  entities.PatientThread - Patient Patient{name='Maks', waitingTime=15, takingTime=7, health=3} is out
+2025-08-21 10:24:51.295 [Thread-85] INFO  entities.PatientThread - Patient Patient{name='Roma', waitingTime=15, takingTime=4, health=3} is out
+2025-08-21 10:24:51.303 [Thread-3] INFO  entities.PatientThread - Patient{name='Danik', waitingTime=12, takingTime=4, health=3} finished
+2025-08-21 10:24:52.306 [Thread-5] INFO  entities.PatientThread - Patient{name='Dima', waitingTime=15, takingTime=4, health=3} finished
+2025-08-21 10:24:57.308 [Thread-14] INFO  entities.PatientThread - Patient{name='Roma', waitingTime=15, takingTime=7, health=2} finished
+2025-08-21 10:24:57.316 [main] INFO  by.kirienko.utils.CabinetStatistic - Cabinet FIRST_CABINET, max patient : 3; serviced patients : 4; leaved patients : 29
+2025-08-21 10:24:57.317 [main] INFO  by.kirienko.utils.CabinetStatistic - Cabinet SECOND_CABINET, max patient : 3; serviced patients : 3; leaved patients : 24
+2025-08-21 10:24:57.317 [main] INFO  by.kirienko.utils.CabinetStatistic - Cabinet THIRD_CABINET, max patient : 3; serviced patients : 3; leaved patients : 37
+2025-08-21 10:38:31.939 [Thread-0] INFO  entities.PatientThread - Patient{name='Nikita', waitingTime=13, takingTime=5, health=3} just came in THIRD_CABINET for 5 seconds
+2025-08-21 10:38:31.939 [Thread-7] INFO  entities.PatientThread - Patient{name='Egor', waitingTime=9, takingTime=7, health=1} just came in FIRST_CABINET for 7 seconds
+2025-08-21 10:38:31.939 [Thread-2] INFO  entities.PatientThread - Patient{name='Egor', waitingTime=11, takingTime=7, health=2} just came in SECOND_CABINET for 7 seconds
+2025-08-21 10:38:36.954 [Thread-0] INFO  entities.PatientThread - Patient{name='Nikita', waitingTime=13, takingTime=5, health=1} finished
+2025-08-21 10:38:36.954 [Thread-1] INFO  entities.PatientThread - Patient{name='Egor', waitingTime=9, takingTime=4, health=2} just came in THIRD_CABINET for 4 seconds
+2025-08-21 10:38:38.955 [Thread-7] INFO  entities.PatientThread - Patient{name='Egor', waitingTime=9, takingTime=7, health=3} finished
+2025-08-21 10:38:38.955 [Thread-2] INFO  entities.PatientThread - Patient{name='Egor', waitingTime=11, takingTime=7, health=2} finished
+2025-08-21 10:38:38.955 [Thread-5] INFO  entities.PatientThread - Patient{name='Dima', waitingTime=11, takingTime=4, health=1} just came in FIRST_CABINET for 4 seconds
+2025-08-21 10:38:38.955 [Thread-9] INFO  entities.PatientThread - Patient{name='Danik', waitingTime=10, takingTime=6, health=1} just came in SECOND_CABINET for 6 seconds
+2025-08-21 10:38:39.941 [Thread-28] INFO  entities.PatientThread - Patient Patient{name='Maks', waitingTime=8, takingTime=6, health=1} is out
+2025-08-21 10:38:39.947 [Thread-20] INFO  entities.PatientThread - Patient Patient{name='Egor', waitingTime=8, takingTime=4, health=2} is out
+2025-08-21 10:38:39.947 [Thread-30] INFO  entities.PatientThread - Patient Patient{name='Vanya', waitingTime=8, takingTime=5, health=2} is out
+2025-08-21 10:38:39.947 [Thread-32] INFO  entities.PatientThread - Patient Patient{name='Danik', waitingTime=8, takingTime=5, health=3} is out
+2025-08-21 10:38:39.947 [Thread-43] INFO  entities.PatientThread - Patient Patient{name='Gleb', waitingTime=8, takingTime=7, health=3} is out
+2025-08-21 10:38:39.948 [Thread-54] INFO  entities.PatientThread - Patient Patient{name='Roma', waitingTime=8, takingTime=4, health=3} is out
+2025-08-21 10:38:39.948 [Thread-60] INFO  entities.PatientThread - Patient Patient{name='Danik', waitingTime=8, takingTime=6, health=2} is out
+2025-08-21 10:38:39.950 [Thread-72] INFO  entities.PatientThread - Patient Patient{name='Gleb', waitingTime=8, takingTime=6, health=3} is out
+2025-08-21 10:38:39.950 [Thread-75] INFO  entities.PatientThread - Patient Patient{name='Egor', waitingTime=8, takingTime=5, health=1} is out
+2025-08-21 10:38:39.950 [Thread-83] INFO  entities.PatientThread - Patient Patient{name='Danik', waitingTime=8, takingTime=4, health=2} is out
+2025-08-21 10:38:39.951 [Thread-93] INFO  entities.PatientThread - Patient Patient{name='Egor', waitingTime=8, takingTime=6, health=1} is out
+2025-08-21 10:38:40.941 [Thread-10] INFO  entities.PatientThread - Patient Patient{name='Gleb', waitingTime=9, takingTime=4, health=3} is out
+2025-08-21 10:38:40.941 [Thread-34] INFO  entities.PatientThread - Patient Patient{name='Danik', waitingTime=9, takingTime=5, health=2} is out
+2025-08-21 10:38:40.941 [Thread-21] INFO  entities.PatientThread - Patient Patient{name='Vanya', waitingTime=9, takingTime=4, health=1} is out
+2025-08-21 10:38:40.947 [Thread-52] INFO  entities.PatientThread - Patient Patient{name='Gleb', waitingTime=9, takingTime=7, health=2} is out
+2025-08-21 10:38:40.947 [Thread-38] INFO  entities.PatientThread - Patient Patient{name='Danik', waitingTime=9, takingTime=4, health=3} is out
+2025-08-21 10:38:40.948 [Thread-59] INFO  entities.PatientThread - Patient Patient{name='Egor', waitingTime=9, takingTime=5, health=3} is out
+2025-08-21 10:38:40.948 [Thread-55] INFO  entities.PatientThread - Patient Patient{name='Nikita', waitingTime=9, takingTime=7, health=2} is out
+2025-08-21 10:38:40.948 [Thread-49] INFO  entities.PatientThread - Patient Patient{name='Gleb', waitingTime=9, takingTime=4, health=3} is out
+2025-08-21 10:38:40.949 [Thread-66] INFO  entities.PatientThread - Patient Patient{name='Maks', waitingTime=9, takingTime=5, health=2} is out
+2025-08-21 10:38:40.949 [Thread-79] INFO  entities.PatientThread - Patient Patient{name='Egor', waitingTime=9, takingTime=7, health=2} is out
+2025-08-21 10:38:40.951 [Thread-94] INFO  entities.PatientThread - Patient Patient{name='Roma', waitingTime=9, takingTime=5, health=3} is out
+2025-08-21 10:38:40.951 [Thread-87] INFO  entities.PatientThread - Patient Patient{name='Dima', waitingTime=9, takingTime=6, health=2} is out
+2025-08-21 10:38:40.952 [Thread-99] INFO  entities.PatientThread - Patient Patient{name='Maks', waitingTime=9, takingTime=5, health=2} is out
+2025-08-21 10:38:40.955 [Thread-1] INFO  entities.PatientThread - Patient{name='Egor', waitingTime=9, takingTime=4, health=1} finished
+2025-08-21 10:38:40.955 [Thread-3] INFO  entities.PatientThread - Patient{name='Nikita', waitingTime=12, takingTime=5, health=1} just came in THIRD_CABINET for 5 seconds
+2025-08-21 10:38:41.940 [Thread-8] INFO  entities.PatientThread - Patient Patient{name='Vanya', waitingTime=10, takingTime=7, health=1} is out
+2025-08-21 10:38:41.940 [Thread-26] INFO  entities.PatientThread - Patient Patient{name='Roma', waitingTime=10, takingTime=5, health=3} is out
+2025-08-21 10:38:41.940 [Thread-4] INFO  entities.PatientThread - Patient Patient{name='Nikita', waitingTime=10, takingTime=5, health=2} is out
+2025-08-21 10:38:41.946 [Thread-37] INFO  entities.PatientThread - Patient Patient{name='Dima', waitingTime=10, takingTime=5, health=3} is out
+2025-08-21 10:38:41.947 [Thread-56] INFO  entities.PatientThread - Patient Patient{name='Vanya', waitingTime=10, takingTime=6, health=3} is out
+2025-08-21 10:38:41.947 [Thread-46] INFO  entities.PatientThread - Patient Patient{name='Danik', waitingTime=10, takingTime=7, health=3} is out
+2025-08-21 10:38:41.949 [Thread-70] INFO  entities.PatientThread - Patient Patient{name='Nikita', waitingTime=10, takingTime=5, health=3} is out
+2025-08-21 10:38:41.949 [Thread-78] INFO  entities.PatientThread - Patient Patient{name='Danik', waitingTime=10, takingTime=5, health=1} is out
+2025-08-21 10:38:41.949 [Thread-81] INFO  entities.PatientThread - Patient Patient{name='Vanya', waitingTime=10, takingTime=5, health=3} is out
+2025-08-21 10:38:41.949 [Thread-62] INFO  entities.PatientThread - Patient Patient{name='Dima', waitingTime=10, takingTime=6, health=1} is out
+2025-08-21 10:38:41.951 [Thread-85] INFO  entities.PatientThread - Patient Patient{name='Egor', waitingTime=10, takingTime=5, health=3} is out
+2025-08-21 10:38:41.951 [Thread-95] INFO  entities.PatientThread - Patient Patient{name='Danik', waitingTime=10, takingTime=6, health=3} is out
+2025-08-21 10:38:42.940 [Thread-25] INFO  entities.PatientThread - Patient Patient{name='Gleb', waitingTime=11, takingTime=7, health=3} is out
+2025-08-21 10:38:42.940 [Thread-16] INFO  entities.PatientThread - Patient Patient{name='Egor', waitingTime=11, takingTime=4, health=3} is out
+2025-08-21 10:38:42.940 [Thread-22] INFO  entities.PatientThread - Patient Patient{name='Nikita', waitingTime=11, takingTime=5, health=2} is out
+2025-08-21 10:38:42.940 [Thread-29] INFO  entities.PatientThread - Patient Patient{name='Nikita', waitingTime=11, takingTime=5, health=2} is out
+2025-08-21 10:38:42.947 [Thread-39] INFO  entities.PatientThread - Patient Patient{name='Nikita', waitingTime=11, takingTime=4, health=3} is out
+2025-08-21 10:38:42.948 [Thread-67] INFO  entities.PatientThread - Patient Patient{name='Roma', waitingTime=11, takingTime=5, health=2} is out
+2025-08-21 10:38:42.950 [Thread-74] INFO  entities.PatientThread - Patient Patient{name='Danik', waitingTime=11, takingTime=6, health=2} is out
+2025-08-21 10:38:42.950 [Thread-68] INFO  entities.PatientThread - Patient Patient{name='Egor', waitingTime=11, takingTime=5, health=3} is out
+2025-08-21 10:38:42.950 [Thread-73] INFO  entities.PatientThread - Patient Patient{name='Dima', waitingTime=11, takingTime=5, health=1} is out
+2025-08-21 10:38:42.956 [Thread-5] INFO  entities.PatientThread - Patient{name='Dima', waitingTime=11, takingTime=4, health=2} finished
+2025-08-21 10:38:42.956 [Thread-6] INFO  entities.PatientThread - Patient{name='Danik', waitingTime=15, takingTime=7, health=2} just came in FIRST_CABINET for 7 seconds
+2025-08-21 10:38:43.942 [Thread-13] INFO  entities.PatientThread - Patient Patient{name='Dima', waitingTime=12, takingTime=4, health=1} is out
+2025-08-21 10:38:43.942 [Thread-24] INFO  entities.PatientThread - Patient Patient{name='Vanya', waitingTime=12, takingTime=6, health=1} is out
+2025-08-21 10:38:43.948 [Thread-50] INFO  entities.PatientThread - Patient Patient{name='Gleb', waitingTime=12, takingTime=7, health=2} is out
+2025-08-21 10:38:43.948 [Thread-31] INFO  entities.PatientThread - Patient Patient{name='Nikita', waitingTime=12, takingTime=7, health=3} is out
+2025-08-21 10:38:43.948 [Thread-42] INFO  entities.PatientThread - Patient Patient{name='Danik', waitingTime=12, takingTime=5, health=1} is out
+2025-08-21 10:38:43.948 [Thread-40] INFO  entities.PatientThread - Patient Patient{name='Gleb', waitingTime=12, takingTime=4, health=3} is out
+2025-08-21 10:38:43.949 [Thread-58] INFO  entities.PatientThread - Patient Patient{name='Vanya', waitingTime=12, takingTime=5, health=3} is out
+2025-08-21 10:38:43.949 [Thread-64] INFO  entities.PatientThread - Patient Patient{name='Nikita', waitingTime=12, takingTime=4, health=2} is out
+2025-08-21 10:38:43.949 [Thread-69] INFO  entities.PatientThread - Patient Patient{name='Roma', waitingTime=12, takingTime=7, health=1} is out
+2025-08-21 10:38:43.950 [Thread-89] INFO  entities.PatientThread - Patient Patient{name='Vanya', waitingTime=12, takingTime=7, health=1} is out
+2025-08-21 10:38:43.950 [Thread-77] INFO  entities.PatientThread - Patient Patient{name='Gleb', waitingTime=12, takingTime=7, health=2} is out
+2025-08-21 10:38:43.950 [Thread-90] INFO  entities.PatientThread - Patient Patient{name='Vanya', waitingTime=12, takingTime=6, health=1} is out
+2025-08-21 10:38:43.950 [Thread-88] INFO  entities.PatientThread - Patient Patient{name='Gleb', waitingTime=12, takingTime=4, health=2} is out
+2025-08-21 10:38:43.952 [Thread-98] INFO  entities.PatientThread - Patient Patient{name='Gleb', waitingTime=12, takingTime=7, health=2} is out
+2025-08-21 10:38:44.941 [Thread-23] INFO  entities.PatientThread - Patient Patient{name='Roma', waitingTime=13, takingTime=6, health=3} is out
+2025-08-21 10:38:44.941 [Thread-27] INFO  entities.PatientThread - Patient Patient{name='Dima', waitingTime=13, takingTime=6, health=2} is out
+2025-08-21 10:38:44.941 [Thread-14] INFO  entities.PatientThread - Patient Patient{name='Egor', waitingTime=13, takingTime=6, health=1} is out
+2025-08-21 10:38:44.947 [Thread-12] INFO  entities.PatientThread - Patient Patient{name='Danik', waitingTime=13, takingTime=6, health=1} is out
+2025-08-21 10:38:44.947 [Thread-47] INFO  entities.PatientThread - Patient Patient{name='Maks', waitingTime=13, takingTime=7, health=2} is out
+2025-08-21 10:38:44.947 [Thread-36] INFO  entities.PatientThread - Patient Patient{name='Roma', waitingTime=13, takingTime=5, health=1} is out
+2025-08-21 10:38:44.947 [Thread-35] INFO  entities.PatientThread - Patient Patient{name='Nikita', waitingTime=13, takingTime=6, health=3} is out
+2025-08-21 10:38:44.947 [Thread-41] INFO  entities.PatientThread - Patient Patient{name='Danik', waitingTime=13, takingTime=5, health=3} is out
+2025-08-21 10:38:44.948 [Thread-57] INFO  entities.PatientThread - Patient Patient{name='Nikita', waitingTime=13, takingTime=5, health=3} is out
+2025-08-21 10:38:44.948 [Thread-61] INFO  entities.PatientThread - Patient Patient{name='Nikita', waitingTime=13, takingTime=5, health=1} is out
+2025-08-21 10:38:44.949 [Thread-63] INFO  entities.PatientThread - Patient Patient{name='Nikita', waitingTime=13, takingTime=6, health=3} is out
+2025-08-21 10:38:44.949 [Thread-80] INFO  entities.PatientThread - Patient Patient{name='Egor', waitingTime=13, takingTime=5, health=2} is out
+2025-08-21 10:38:44.949 [Thread-65] INFO  entities.PatientThread - Patient Patient{name='Dima', waitingTime=13, takingTime=7, health=3} is out
+2025-08-21 10:38:44.951 [Thread-92] INFO  entities.PatientThread - Patient Patient{name='Vanya', waitingTime=13, takingTime=5, health=3} is out
+2025-08-21 10:38:44.951 [Thread-86] INFO  entities.PatientThread - Patient Patient{name='Roma', waitingTime=13, takingTime=5, health=3} is out
+2025-08-21 10:38:44.956 [Thread-9] INFO  entities.PatientThread - Patient{name='Danik', waitingTime=10, takingTime=6, health=3} finished
+2025-08-21 10:38:44.956 [Thread-11] INFO  entities.PatientThread - Patient{name='Egor', waitingTime=15, takingTime=7, health=3} just came in SECOND_CABINET for 7 seconds
+2025-08-21 10:38:45.939 [Thread-15] INFO  entities.PatientThread - Patient Patient{name='Nikita', waitingTime=14, takingTime=5, health=2} is out
+2025-08-21 10:38:45.940 [Thread-17] INFO  entities.PatientThread - Patient Patient{name='Vanya', waitingTime=14, takingTime=5, health=3} is out
+2025-08-21 10:38:45.940 [Thread-19] INFO  entities.PatientThread - Patient Patient{name='Gleb', waitingTime=14, takingTime=5, health=1} is out
+2025-08-21 10:38:45.946 [Thread-44] INFO  entities.PatientThread - Patient Patient{name='Dima', waitingTime=14, takingTime=4, health=2} is out
+2025-08-21 10:38:45.946 [Thread-33] INFO  entities.PatientThread - Patient Patient{name='Dima', waitingTime=14, takingTime=5, health=3} is out
+2025-08-21 10:38:45.948 [Thread-53] INFO  entities.PatientThread - Patient Patient{name='Egor', waitingTime=14, takingTime=4, health=3} is out
+2025-08-21 10:38:45.950 [Thread-84] INFO  entities.PatientThread - Patient Patient{name='Nikita', waitingTime=14, takingTime=5, health=3} is out
+2025-08-21 10:38:45.950 [Thread-76] INFO  entities.PatientThread - Patient Patient{name='Egor', waitingTime=14, takingTime=6, health=3} is out
+2025-08-21 10:38:45.951 [Thread-97] INFO  entities.PatientThread - Patient Patient{name='Danik', waitingTime=14, takingTime=6, health=3} is out
+2025-08-21 10:38:45.951 [Thread-91] INFO  entities.PatientThread - Patient Patient{name='Nikita', waitingTime=14, takingTime=6, health=1} is out
+2025-08-21 10:38:45.956 [Thread-3] INFO  entities.PatientThread - Patient{name='Nikita', waitingTime=12, takingTime=5, health=1} finished
+2025-08-21 10:38:45.956 [Thread-48] INFO  entities.PatientThread - Patient{name='Vanya', waitingTime=15, takingTime=7, health=1} just came in THIRD_CABINET for 7 seconds
+2025-08-21 10:38:46.940 [Thread-18] INFO  entities.PatientThread - Patient Patient{name='Nikita', waitingTime=15, takingTime=7, health=2} is out
+2025-08-21 10:38:46.947 [Thread-51] INFO  entities.PatientThread - Patient Patient{name='Nikita', waitingTime=15, takingTime=4, health=1} is out
+2025-08-21 10:38:46.948 [Thread-45] INFO  entities.PatientThread - Patient Patient{name='Egor', waitingTime=15, takingTime=5, health=2} is out
+2025-08-21 10:38:46.950 [Thread-71] INFO  entities.PatientThread - Patient Patient{name='Nikita', waitingTime=15, takingTime=6, health=2} is out
+2025-08-21 10:38:46.950 [Thread-82] INFO  entities.PatientThread - Patient Patient{name='Gleb', waitingTime=15, takingTime=4, health=1} is out
+2025-08-21 10:38:46.952 [Thread-96] INFO  entities.PatientThread - Patient Patient{name='Vanya', waitingTime=15, takingTime=7, health=2} is out
+2025-08-21 10:38:49.957 [Thread-6] INFO  entities.PatientThread - Patient{name='Danik', waitingTime=15, takingTime=7, health=2} finished
+2025-08-21 10:38:51.959 [Thread-11] INFO  entities.PatientThread - Patient{name='Egor', waitingTime=15, takingTime=7, health=2} finished
+2025-08-21 10:38:52.957 [Thread-48] INFO  entities.PatientThread - Patient{name='Vanya', waitingTime=15, takingTime=7, health=3} finished
+2025-08-21 10:38:52.957 [main] INFO  by.kirienko.utils.CabinetStatistic - Cabinet FIRST_CABINET, max patient : 3; serviced patients : 3; leaved patients : 42
+2025-08-21 10:38:52.959 [main] INFO  by.kirienko.utils.CabinetStatistic - Cabinet SECOND_CABINET, max patient : 4; serviced patients : 3; leaved patients : 28
+2025-08-21 10:38:52.959 [main] INFO  by.kirienko.utils.CabinetStatistic - Cabinet THIRD_CABINET, max patient : 4; serviced patients : 4; leaved patients : 20
+2025-08-21 10:43:46.927 [Thread-2] INFO  entities.PatientThread - Patient{name='Gleb', waitingTime=15, takingTime=4, health=3} just came in THIRD_CABINET for 4 seconds
+2025-08-21 10:43:46.927 [Thread-0] INFO  entities.PatientThread - Patient{name='Roma', waitingTime=12, takingTime=5, health=2} just came in SECOND_CABINET for 5 seconds
+2025-08-21 10:43:46.926 [Thread-4] INFO  entities.PatientThread - Patient{name='Roma', waitingTime=12, takingTime=7, health=1} just came in FIRST_CABINET for 7 seconds
+2025-08-21 10:43:50.954 [Thread-2] INFO  entities.PatientThread - Patient{name='Gleb', waitingTime=15, takingTime=4, health=2} finished
+2025-08-21 10:43:50.954 [Thread-5] INFO  entities.PatientThread - Patient{name='Danik', waitingTime=13, takingTime=4, health=1} just came in THIRD_CABINET for 4 seconds
+2025-08-21 10:43:51.954 [Thread-0] INFO  entities.PatientThread - Patient{name='Roma', waitingTime=12, takingTime=5, health=2} finished
+2025-08-21 10:43:51.955 [Thread-1] INFO  entities.PatientThread - Patient{name='Roma', waitingTime=11, takingTime=6, health=3} just came in SECOND_CABINET for 6 seconds
+2025-08-21 10:43:53.954 [Thread-4] INFO  entities.PatientThread - Patient{name='Roma', waitingTime=12, takingTime=7, health=3} finished
+2025-08-21 10:43:53.955 [Thread-8] INFO  entities.PatientThread - Patient{name='Vanya', waitingTime=9, takingTime=7, health=2} just came in FIRST_CABINET for 7 seconds
+2025-08-21 10:43:54.927 [Thread-17] INFO  entities.PatientThread - Patient Patient{name='Danik', waitingTime=8, takingTime=6, health=1} is out
+2025-08-21 10:43:54.927 [Thread-21] INFO  entities.PatientThread - Patient Patient{name='Vanya', waitingTime=8, takingTime=4, health=2} is out
+2025-08-21 10:43:54.939 [Thread-34] INFO  entities.PatientThread - Patient Patient{name='Nikita', waitingTime=8, takingTime=4, health=3} is out
+2025-08-21 10:43:54.940 [Thread-38] INFO  entities.PatientThread - Patient Patient{name='Dima', waitingTime=8, takingTime=7, health=1} is out
+2025-08-21 10:43:54.944 [Thread-53] INFO  entities.PatientThread - Patient Patient{name='Dima', waitingTime=8, takingTime=7, health=3} is out
+2025-08-21 10:43:54.945 [Thread-54] INFO  entities.PatientThread - Patient Patient{name='Vanya', waitingTime=8, takingTime=7, health=2} is out
+2025-08-21 10:43:54.947 [Thread-60] INFO  entities.PatientThread - Patient Patient{name='Danik', waitingTime=8, takingTime=4, health=3} is out
+2025-08-21 10:43:54.947 [Thread-59] INFO  entities.PatientThread - Patient Patient{name='Maks', waitingTime=8, takingTime=5, health=3} is out
+2025-08-21 10:43:54.951 [Thread-77] INFO  entities.PatientThread - Patient Patient{name='Nikita', waitingTime=8, takingTime=6, health=2} is out
+2025-08-21 10:43:54.955 [Thread-94] INFO  entities.PatientThread - Patient Patient{name='Vanya', waitingTime=8, takingTime=7, health=3} is out
+2025-08-21 10:43:54.955 [Thread-92] INFO  entities.PatientThread - Patient Patient{name='Maks', waitingTime=8, takingTime=4, health=1} is out
+2025-08-21 10:43:54.955 [Thread-95] INFO  entities.PatientThread - Patient Patient{name='Maks', waitingTime=8, takingTime=5, health=1} is out
+2025-08-21 10:43:54.956 [Thread-5] INFO  entities.PatientThread - Patient{name='Danik', waitingTime=13, takingTime=4, health=1} finished
+2025-08-21 10:43:54.956 [Thread-6] INFO  entities.PatientThread - Patient{name='Egor', waitingTime=9, takingTime=4, health=3} just came in THIRD_CABINET for 4 seconds
+2025-08-21 10:43:55.928 [Thread-14] INFO  entities.PatientThread - Patient Patient{name='Danik', waitingTime=9, takingTime=6, health=3} is out
+2025-08-21 10:43:55.939 [Thread-33] INFO  entities.PatientThread - Patient Patient{name='Egor', waitingTime=9, takingTime=5, health=2} is out
+2025-08-21 10:43:55.939 [Thread-32] INFO  entities.PatientThread - Patient Patient{name='Danik', waitingTime=9, takingTime=4, health=2} is out
+2025-08-21 10:43:55.942 [Thread-46] INFO  entities.PatientThread - Patient Patient{name='Roma', waitingTime=9, takingTime=6, health=1} is out
+2025-08-21 10:43:55.942 [Thread-47] INFO  entities.PatientThread - Patient Patient{name='Roma', waitingTime=9, takingTime=7, health=3} is out
+2025-08-21 10:43:55.944 [Thread-55] INFO  entities.PatientThread - Patient Patient{name='Dima', waitingTime=9, takingTime=5, health=1} is out
+2025-08-21 10:43:55.946 [Thread-57] INFO  entities.PatientThread - Patient Patient{name='Danik', waitingTime=9, takingTime=4, health=3} is out
+2025-08-21 10:43:55.951 [Thread-76] INFO  entities.PatientThread - Patient Patient{name='Maks', waitingTime=9, takingTime=7, health=3} is out
+2025-08-21 10:43:55.951 [Thread-75] INFO  entities.PatientThread - Patient Patient{name='Danik', waitingTime=9, takingTime=4, health=2} is out
+2025-08-21 10:43:55.953 [Thread-80] INFO  entities.PatientThread - Patient Patient{name='Gleb', waitingTime=9, takingTime=7, health=3} is out
+2025-08-21 10:43:55.954 [Thread-88] INFO  entities.PatientThread - Patient Patient{name='Egor', waitingTime=9, takingTime=4, health=3} is out
+2025-08-21 10:43:55.956 [Thread-99] INFO  entities.PatientThread - Patient Patient{name='Vanya', waitingTime=9, takingTime=7, health=2} is out
+2025-08-21 10:43:56.926 [Thread-7] INFO  entities.PatientThread - Patient Patient{name='Egor', waitingTime=10, takingTime=7, health=3} is out
+2025-08-21 10:43:56.928 [Thread-26] INFO  entities.PatientThread - Patient Patient{name='Roma', waitingTime=10, takingTime=6, health=2} is out
+2025-08-21 10:43:56.930 [Thread-28] INFO  entities.PatientThread - Patient Patient{name='Roma', waitingTime=10, takingTime=7, health=2} is out
+2025-08-21 10:43:56.942 [Thread-40] INFO  entities.PatientThread - Patient Patient{name='Roma', waitingTime=10, takingTime=4, health=1} is out
+2025-08-21 10:43:56.942 [Thread-42] INFO  entities.PatientThread - Patient Patient{name='Maks', waitingTime=10, takingTime=4, health=3} is out
+2025-08-21 10:43:56.945 [Thread-51] INFO  entities.PatientThread - Patient Patient{name='Dima', waitingTime=10, takingTime=7, health=1} is out
+2025-08-21 10:43:56.947 [Thread-58] INFO  entities.PatientThread - Patient Patient{name='Maks', waitingTime=10, takingTime=5, health=3} is out
+2025-08-21 10:43:56.947 [Thread-56] INFO  entities.PatientThread - Patient Patient{name='Dima', waitingTime=10, takingTime=7, health=3} is out
+2025-08-21 10:43:56.948 [Thread-67] INFO  entities.PatientThread - Patient Patient{name='Vanya', waitingTime=10, takingTime=5, health=2} is out
+2025-08-21 10:43:56.950 [Thread-73] INFO  entities.PatientThread - Patient Patient{name='Vanya', waitingTime=10, takingTime=7, health=1} is out
+2025-08-21 10:43:56.952 [Thread-78] INFO  entities.PatientThread - Patient Patient{name='Maks', waitingTime=10, takingTime=6, health=1} is out
+2025-08-21 10:43:56.952 [Thread-79] INFO  entities.PatientThread - Patient Patient{name='Maks', waitingTime=10, takingTime=5, health=1} is out
+2025-08-21 10:43:56.954 [Thread-97] INFO  entities.PatientThread - Patient Patient{name='Gleb', waitingTime=10, takingTime=5, health=1} is out
+2025-08-21 10:43:56.954 [Thread-93] INFO  entities.PatientThread - Patient Patient{name='Gleb', waitingTime=10, takingTime=7, health=3} is out
+2025-08-21 10:43:57.942 [Thread-27] INFO  entities.PatientThread - Patient Patient{name='Danik', waitingTime=11, takingTime=5, health=1} is out
+2025-08-21 10:43:57.942 [Thread-23] INFO  entities.PatientThread - Patient Patient{name='Vanya', waitingTime=11, takingTime=6, health=3} is out
+2025-08-21 10:43:57.942 [Thread-31] INFO  entities.PatientThread - Patient Patient{name='Roma', waitingTime=11, takingTime=5, health=3} is out
+2025-08-21 10:43:57.957 [Thread-91] INFO  entities.PatientThread - Patient Patient{name='Vanya', waitingTime=11, takingTime=7, health=2} is out
+2025-08-21 10:43:57.957 [Thread-70] INFO  entities.PatientThread - Patient Patient{name='Dima', waitingTime=11, takingTime=6, health=2} is out
+2025-08-21 10:43:57.957 [Thread-90] INFO  entities.PatientThread - Patient Patient{name='Dima', waitingTime=11, takingTime=7, health=2} is out
+2025-08-21 10:43:57.957 [Thread-96] INFO  entities.PatientThread - Patient Patient{name='Maks', waitingTime=11, takingTime=6, health=3} is out
+2025-08-21 10:43:57.957 [Thread-63] INFO  entities.PatientThread - Patient Patient{name='Nikita', waitingTime=11, takingTime=5, health=3} is out
+2025-08-21 10:43:57.957 [Thread-50] INFO  entities.PatientThread - Patient Patient{name='Maks', waitingTime=11, takingTime=5, health=3} is out
+2025-08-21 10:43:57.957 [Thread-1] INFO  entities.PatientThread - Patient{name='Roma', waitingTime=11, takingTime=6, health=1} finished
+2025-08-21 10:43:57.958 [Thread-3] INFO  entities.PatientThread - Patient{name='Vanya', waitingTime=15, takingTime=4, health=2} just came in SECOND_CABINET for 4 seconds
+2025-08-21 10:43:58.929 [Thread-18] INFO  entities.PatientThread - Patient Patient{name='Vanya', waitingTime=12, takingTime=7, health=2} is out
+2025-08-21 10:43:58.929 [Thread-11] INFO  entities.PatientThread - Patient Patient{name='Roma', waitingTime=12, takingTime=7, health=1} is out
+2025-08-21 10:43:58.946 [Thread-62] INFO  entities.PatientThread - Patient Patient{name='Danik', waitingTime=12, takingTime=6, health=2} is out
+2025-08-21 10:43:58.962 [Thread-6] INFO  entities.PatientThread - Patient{name='Egor', waitingTime=9, takingTime=4, health=1} finished
+2025-08-21 10:43:58.962 [Thread-85] INFO  entities.PatientThread - Patient Patient{name='Roma', waitingTime=12, takingTime=5, health=3} is out
+2025-08-21 10:43:58.962 [Thread-66] INFO  entities.PatientThread - Patient Patient{name='Nikita', waitingTime=12, takingTime=4, health=3} is out
+2025-08-21 10:43:58.962 [Thread-72] INFO  entities.PatientThread - Patient Patient{name='Gleb', waitingTime=12, takingTime=5, health=2} is out
+2025-08-21 10:43:58.962 [Thread-13] INFO  entities.PatientThread - Patient{name='Nikita', waitingTime=14, takingTime=5, health=3} just came in THIRD_CABINET for 5 seconds
+2025-08-21 10:43:59.927 [Thread-22] INFO  entities.PatientThread - Patient Patient{name='Dima', waitingTime=13, takingTime=6, health=1} is out
+2025-08-21 10:43:59.927 [Thread-10] INFO  entities.PatientThread - Patient Patient{name='Roma', waitingTime=13, takingTime=7, health=1} is out
+2025-08-21 10:43:59.943 [Thread-43] INFO  entities.PatientThread - Patient Patient{name='Roma', waitingTime=13, takingTime=7, health=2} is out
+2025-08-21 10:43:59.943 [Thread-30] INFO  entities.PatientThread - Patient Patient{name='Gleb', waitingTime=13, takingTime=6, health=3} is out
+2025-08-21 10:43:59.943 [Thread-35] INFO  entities.PatientThread - Patient Patient{name='Maks', waitingTime=13, takingTime=5, health=2} is out
+2025-08-21 10:43:59.959 [Thread-71] INFO  entities.PatientThread - Patient Patient{name='Gleb', waitingTime=13, takingTime=6, health=2} is out
+2025-08-21 10:43:59.959 [Thread-81] INFO  entities.PatientThread - Patient Patient{name='Maks', waitingTime=13, takingTime=7, health=2} is out
+2025-08-21 10:43:59.959 [Thread-64] INFO  entities.PatientThread - Patient Patient{name='Egor', waitingTime=13, takingTime=7, health=3} is out
+2025-08-21 10:43:59.959 [Thread-68] INFO  entities.PatientThread - Patient Patient{name='Maks', waitingTime=13, takingTime=4, health=1} is out
+2025-08-21 10:43:59.959 [Thread-52] INFO  entities.PatientThread - Patient Patient{name='Vanya', waitingTime=13, takingTime=4, health=1} is out
+2025-08-21 10:43:59.959 [Thread-82] INFO  entities.PatientThread - Patient Patient{name='Dima', waitingTime=13, takingTime=6, health=2} is out
+2025-08-21 10:43:59.959 [Thread-83] INFO  entities.PatientThread - Patient Patient{name='Vanya', waitingTime=13, takingTime=5, health=2} is out
+2025-08-21 10:44:00.930 [Thread-9] INFO  entities.PatientThread - Patient Patient{name='Dima', waitingTime=14, takingTime=7, health=2} is out
+2025-08-21 10:44:00.930 [Thread-29] INFO  entities.PatientThread - Patient Patient{name='Dima', waitingTime=14, takingTime=5, health=2} is out
+2025-08-21 10:44:00.940 [Thread-36] INFO  entities.PatientThread - Patient Patient{name='Gleb', waitingTime=14, takingTime=6, health=1} is out
+2025-08-21 10:44:00.946 [Thread-44] INFO  entities.PatientThread - Patient Patient{name='Dima', waitingTime=14, takingTime=6, health=2} is out
+2025-08-21 10:44:00.946 [Thread-49] INFO  entities.PatientThread - Patient Patient{name='Gleb', waitingTime=14, takingTime=7, health=2} is out
+2025-08-21 10:44:00.946 [Thread-45] INFO  entities.PatientThread - Patient Patient{name='Vanya', waitingTime=14, takingTime=4, health=2} is out
+2025-08-21 10:44:00.955 [Thread-8] INFO  entities.PatientThread - Patient{name='Vanya', waitingTime=9, takingTime=7, health=3} finished
+2025-08-21 10:44:00.955 [Thread-20] INFO  entities.PatientThread - Patient{name='Egor', waitingTime=15, takingTime=7, health=3} just came in FIRST_CABINET for 7 seconds
+2025-08-21 10:44:00.964 [Thread-74] INFO  entities.PatientThread - Patient Patient{name='Dima', waitingTime=14, takingTime=6, health=1} is out
+2025-08-21 10:44:00.964 [Thread-98] INFO  entities.PatientThread - Patient Patient{name='Nikita', waitingTime=14, takingTime=7, health=2} is out
+2025-08-21 10:44:00.964 [Thread-84] INFO  entities.PatientThread - Patient Patient{name='Roma', waitingTime=14, takingTime=7, health=3} is out
+2025-08-21 10:44:00.964 [Thread-87] INFO  entities.PatientThread - Patient Patient{name='Nikita', waitingTime=14, takingTime=6, health=2} is out
+2025-08-21 10:44:01.927 [Thread-12] INFO  entities.PatientThread - Patient Patient{name='Danik', waitingTime=15, takingTime=4, health=2} is out
+2025-08-21 10:44:01.943 [Thread-24] INFO  entities.PatientThread - Patient Patient{name='Egor', waitingTime=15, takingTime=7, health=3} is out
+2025-08-21 10:44:01.943 [Thread-16] INFO  entities.PatientThread - Patient Patient{name='Dima', waitingTime=15, takingTime=7, health=2} is out
+2025-08-21 10:44:01.943 [Thread-15] INFO  entities.PatientThread - Patient Patient{name='Gleb', waitingTime=15, takingTime=7, health=2} is out
+2025-08-21 10:44:01.943 [Thread-25] INFO  entities.PatientThread - Patient Patient{name='Vanya', waitingTime=15, takingTime=7, health=2} is out
+2025-08-21 10:44:01.943 [Thread-48] INFO  entities.PatientThread - Patient Patient{name='Vanya', waitingTime=15, takingTime=7, health=1} is out
+2025-08-21 10:44:01.943 [Thread-19] INFO  entities.PatientThread - Patient Patient{name='Egor', waitingTime=15, takingTime=6, health=3} is out
+2025-08-21 10:44:01.943 [Thread-41] INFO  entities.PatientThread - Patient Patient{name='Egor', waitingTime=15, takingTime=5, health=2} is out
+2025-08-21 10:44:01.943 [Thread-37] INFO  entities.PatientThread - Patient Patient{name='Vanya', waitingTime=15, takingTime=6, health=1} is out
+2025-08-21 10:44:01.943 [Thread-39] INFO  entities.PatientThread - Patient Patient{name='Roma', waitingTime=15, takingTime=6, health=1} is out
+2025-08-21 10:44:01.948 [Thread-65] INFO  entities.PatientThread - Patient Patient{name='Dima', waitingTime=15, takingTime=5, health=2} is out
+2025-08-21 10:44:01.958 [Thread-61] INFO  entities.PatientThread - Patient Patient{name='Egor', waitingTime=15, takingTime=4, health=3} is out
+2025-08-21 10:44:01.958 [Thread-89] INFO  entities.PatientThread - Patient Patient{name='Danik', waitingTime=15, takingTime=5, health=3} is out
+2025-08-21 10:44:01.958 [Thread-86] INFO  entities.PatientThread - Patient Patient{name='Vanya', waitingTime=15, takingTime=4, health=1} is out
+2025-08-21 10:44:01.958 [Thread-69] INFO  entities.PatientThread - Patient Patient{name='Gleb', waitingTime=15, takingTime=6, health=3} is out
+2025-08-21 10:44:01.973 [Thread-3] INFO  entities.PatientThread - Patient{name='Vanya', waitingTime=15, takingTime=4, health=2} finished
+2025-08-21 10:44:03.979 [Thread-13] INFO  entities.PatientThread - Patient{name='Nikita', waitingTime=14, takingTime=5, health=3} finished
+2025-08-21 10:44:07.967 [Thread-20] INFO  entities.PatientThread - Patient{name='Egor', waitingTime=15, takingTime=7, health=3} finished
+2025-08-21 10:44:07.969 [main] INFO  by.kirienko.utils.CabinetStatistic - Cabinet FIRST_CABINET, max patient : 4; serviced patients : 3; leaved patients : 36
+2025-08-21 10:44:07.970 [main] INFO  by.kirienko.utils.CabinetStatistic - Cabinet SECOND_CABINET, max patient : 3; serviced patients : 3; leaved patients : 31
+2025-08-21 10:44:07.970 [main] INFO  by.kirienko.utils.CabinetStatistic - Cabinet THIRD_CABINET, max patient : 3; serviced patients : 4; leaved patients : 23
