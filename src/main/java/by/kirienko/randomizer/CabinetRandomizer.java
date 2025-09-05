@@ -1,13 +1,12 @@
-package by.kirienko.utils.generator;
+package by.kirienko.randomizer;
 
-import by.kirienko.utils.Randomizer;
-import entities.CabinetEnum;
+import by.kirienko.entities.CabinetEnum;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-public class CabinetGenerator {
+public class CabinetRandomizer {
 
-    private static final Logger LOGGER = LoggerFactory.getLogger(CabinetGenerator.class.getName());
+    private static final Logger LOGGER = LoggerFactory.getLogger(CabinetRandomizer.class.getName());
 
     public static CabinetEnum getRandomCabinet() {
         int bound = CabinetEnum.values().length;

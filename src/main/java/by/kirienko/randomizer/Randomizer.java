@@ -1,4 +1,4 @@
-package by.kirienko.utils;
+package by.kirienko.randomizer;
 
 import java.util.Random;
 

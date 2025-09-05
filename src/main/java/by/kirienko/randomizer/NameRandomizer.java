@@ -1,9 +1,8 @@
-package by.kirienko.utils.generator;
+package by.kirienko.randomizer;
 
-import by.kirienko.utils.Randomizer;
 import by.kirienko.utils.enums.NameEnum;
 
-public class NameGenerator {
+public class NameRandomizer {
     public static String getRandomName() {
         int bound = NameEnum.values().length;
         int randomIndex = Randomizer.RANDOM.nextInt(bound);

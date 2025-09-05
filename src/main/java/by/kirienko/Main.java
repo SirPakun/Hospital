@@ -1,11 +1,11 @@
 package by.kirienko;
 
 import by.kirienko.utils.CabinetStatistic;
-import by.kirienko.utils.PatientGenerator;
+import by.kirienko.generator.PatientGenerator;
 import by.kirienko.utils.PatientThreadExecutor;
-import by.kirienko.utils.PatientThreadGenerator;
-import entities.CabinetEnum;
-import entities.PatientThread;
+import by.kirienko.generator.PatientThreadGenerator;
+import by.kirienko.entities.CabinetEnum;
+import by.kirienko.entities.PatientThread;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -20,7 +20,6 @@ public class Main {
 
         CabinetStatistic.showStatistic();
 
-        System.out.println("123");
     }
 
     private static void testMain(){
@@ -42,16 +41,7 @@ public class Main {
         thread1.start();
         thread2.start();
         thread3.start();
-/*
-        for (int i=0; i<100; i++){
-            System.out.println("thread1 status : " + thread1.getState());
-            System.out.println("thread2 status : " + thread2.getState());
-            System.out.println("thread3 status : " + thread3.getState());
-            Thread.sleep(1000);
-            System.out.println("////////////");
-            System.out.println(i + " seconds");
-            System.out.println("////////////");
-        } */
+
     }
 
 }

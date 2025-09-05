@@ -1,6 +1,6 @@
-package entities;
+package by.kirienko.entities;
 
-import by.kirienko.utils.generator.HealthGenerator;
+import by.kirienko.randomizer.HealthRandomizer;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -30,7 +30,7 @@ public class PatientThread extends Thread {
                         throw new RuntimeException(e);
                     }
 
-                    patient.setHealth(HealthGenerator.getRandomHealth());
+                    patient.setHealth(HealthRandomizer.getRandomHealth());
 
                     LOGGER.info("{} finished", patient);
                     cabinet.enlargeServicedPatients();

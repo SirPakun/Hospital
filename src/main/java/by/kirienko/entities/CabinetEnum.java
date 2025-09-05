@@ -1,6 +1,6 @@
-package entities;
+package by.kirienko.entities;
 
-import by.kirienko.utils.generator.ServiceNumberGenerator;
+import by.kirienko.randomizer.ServiceNumberRandomizer;
 
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
@@ -11,7 +11,7 @@ public enum CabinetEnum {
     THIRD_CABINET(new ReentrantLock());
 
     private final Lock lock;
-    private final int maxServiceNumber = ServiceNumberGenerator.getRandomServiceNumber();
+    private final int maxServiceNumber = ServiceNumberRandomizer.getRandomServiceNumber();
     private int servicedPatients = 0;
     private int leavedPatients = 0;
 

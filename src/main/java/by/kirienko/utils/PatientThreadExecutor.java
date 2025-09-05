@@ -1,6 +1,6 @@
 package by.kirienko.utils;
 
-import entities.PatientThread;
+import by.kirienko.entities.PatientThread;
 
 import java.util.List;
 

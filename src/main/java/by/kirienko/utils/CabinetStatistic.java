@@ -1,6 +1,6 @@
 package by.kirienko.utils;
 
-import entities.CabinetEnum;
+import by.kirienko.entities.CabinetEnum;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
