@@ -8,8 +8,8 @@ import java.util.Objects;
 public class Patient {
     private static final Logger LOGGER = LoggerFactory.getLogger(Patient.class.getName());
     private final String name;
-    private final int waitingTime;
-    private final int takingTime;
+    private int waitingTime;
+    private int takingTime;
 
     private int health;
 
