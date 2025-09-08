@@ -1,17 +1,20 @@
 package by.kirienko.randomizer;
 
-import by.kirienko.entities.CabinetEnum;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+import by.kirienko.entities.Cabinet;
+import by.kirienko.entities.Hospital;
+import by.kirienko.exceptions.NoSuchCabinetException;
 
 public class CabinetRandomizer {
 
-    private static final Logger LOGGER = LoggerFactory.getLogger(CabinetRandomizer.class.getName());
+    public static Cabinet getRandomCabinet() {
+        int amountOfCabinets = Hospital.getInstance().getCabinets().size();
 
-    public static CabinetEnum getRandomCabinet() {
-        int bound = CabinetEnum.values().length;
-        int randomIndex = Randomizer.RANDOM.nextInt(bound);
+        if (amountOfCabinets == 0) throw new NoSuchCabinetException("There is no cabinets in hospital");
 
-        return CabinetEnum.values()[randomIndex];
+        int randomIndex = Randomizer.RANDOM.nextInt(amountOfCabinets);
+
+        Cabinet randomCabinet = Hospital.getInstance().getCabinets().get(randomIndex);
+
+        return randomCabinet;
     }
 }

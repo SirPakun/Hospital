@@ -1,20 +1,26 @@
 package by.kirienko.entities;
 
+import by.kirienko.exceptions.NoSuchCabinetException;
+import by.kirienko.randomizer.CabinetRandomizer;
+import by.kirienko.randomizer.HealthRandomizer;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import java.util.Objects;
+import java.util.concurrent.TimeUnit;
 
-public class Patient {
+public class Patient extends Thread {
+
     private static final Logger LOGGER = LoggerFactory.getLogger(Patient.class.getName());
-    private final String name;
-    private int waitingTime;
-    private int takingTime;
+
+    private final String patientName;
+    private final int waitingTime;
+    private final int takingTime;
 
     private int health;
 
     public Patient(String name, int waitingTime, int takingTime, int health) {
-        this.name = name;
+        this.patientName = name;
         this.waitingTime = waitingTime;
         this.takingTime = takingTime;
         this.health = health;
@@ -22,8 +28,60 @@ public class Patient {
         LOGGER.debug("{} created", this);
     }
 
-    public String getName() {
-        return name;
+    @Override
+    public void run() {
+
+        boolean lockAcquired = false;
+        Cabinet cabinet = null;
+
+        try {
+            cabinet = CabinetRandomizer.getRandomCabinet();
+            lockAcquired = cabinet.getLock().tryLock(waitingTime, TimeUnit.SECONDS);
+
+            if (lockAcquired) {
+
+                if (!cabinet.isClosed().get()) {
+
+                    LOGGER.info("{} just came in cabinet for {} seconds", this, this.takingTime);
+
+                    cabinet.patientTreating(this);
+
+                    int newHealth = HealthRandomizer.getRandomHealth();
+                    this.setHealth(newHealth);
+
+                    cabinet.enlargeServicedPatients();
+
+                    LOGGER.info("{} just left the cabinet with {} HP", this, this.health);
+
+                    if (cabinet.getServicedPatients().get() == cabinet.MAX_SERVICE_NUMBER) {
+                        cabinet.close();
+                    }
+
+                } else {
+                    cabinet.enlargeLeavedPatients();
+                    LOGGER.info("{} is closed", cabinet);
+                }
+            } else {
+                cabinet.enlargeLeavedPatients();
+                LOGGER.info("{} is done to wait", this);
+            }
+
+        } catch (InterruptedException exception) {
+            Thread.currentThread().interrupt();
+            LOGGER.error("Thread was interrupted while waiting for patient thread");
+        } catch (NoSuchCabinetException exception) {
+            LOGGER.error(exception.getMessage());
+        } finally {
+            if (lockAcquired) {
+                cabinet.getLock().unlock();
+            }
+
+        }
+
+    }
+
+    public String getPatientName() {
+        return patientName;
     }
 
     public int getWaitingTime() {
@@ -49,18 +107,18 @@ public class Patient {
         return waitingTime == patient.waitingTime &&
                 takingTime == patient.takingTime &&
                 health == patient.health &&
-                Objects.equals(name, patient.name);
+                Objects.equals(patientName, patient.patientName);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(name, waitingTime, takingTime, health);
+        return Objects.hash(patientName, waitingTime, takingTime, health);
     }
 
     @Override
     public String toString() {
         return "Patient{" +
-                "name='" + name + '\'' +
+                "patientName='" + patientName + '\'' +
                 ", waitingTime=" + waitingTime +
                 ", takingTime=" + takingTime +
                 ", health=" + health +
