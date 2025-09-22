@@ -1,10 +1,12 @@
 package by.kirienko.entities;
 
+import by.kirienko.randomizer.HealthRandomizer;
 import by.kirienko.randomizer.ServiceNumberRandomizer;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import java.util.Objects;
+import java.util.concurrent.TimeUnit;
 import java.util.concurrent.atomic.AtomicBoolean;
 import java.util.concurrent.atomic.AtomicInteger;
 import java.util.concurrent.locks.Lock;
@@ -16,12 +18,16 @@ public class Cabinet {
 
     public final int MAX_SERVICE_NUMBER = ServiceNumberRandomizer.getRandomServiceNumber();
 
-    private final Lock lock = new ReentrantLock();
-    private AtomicBoolean isClosed = new AtomicBoolean(false);
-    private AtomicInteger servicedPatients = new AtomicInteger(0);
-    private AtomicInteger leavedPatients = new AtomicInteger(0);
+    private final Lock lock;
+    private AtomicBoolean isClosed;
+    private AtomicInteger servicedPatients;
+    private AtomicInteger leavedPatients;
 
     public Cabinet() {
+        this.lock = new ReentrantLock();
+        this.isClosed = new AtomicBoolean(false);
+        this.servicedPatients = new AtomicInteger(0);
+        this.leavedPatients = new AtomicInteger(0);
     }
 
     public void patientTreating(Patient patient) throws InterruptedException {
@@ -34,7 +40,49 @@ public class Cabinet {
         }
     }
 
-    public Lock getLock(){
+    public void enterCabinet(Patient patient) {
+        try {
+
+            if (getLock().tryLock(patient.getWaitingTime(), TimeUnit.SECONDS)) {
+
+                if (!isClosed.get()) {
+
+                    LOGGER.info("{} just came in cabinet for {} seconds",
+                            patient.getPatientName(),
+                            patient.getTakingTime());
+
+                    patientTreating(patient);
+
+                    int newHealth = HealthRandomizer.getRandomHealth();
+                    patient.setHealth(newHealth);
+
+                    enlargeServicedPatients();
+
+                    LOGGER.info("{} just left the cabinet with {} HP",
+                            patient.getPatientName(),
+                            patient.getHealth());
+
+                    if (getServicedPatients().get() == MAX_SERVICE_NUMBER) {
+                        close();
+                    }
+
+                } else {
+                    enlargeLeavedPatients();
+                    LOGGER.info("{} is closed", this);
+                }
+            } else {
+                enlargeLeavedPatients();
+                LOGGER.info("{} is done to wait", patient.getPatientName());
+            }
+        } catch (InterruptedException exception) {
+            Thread.currentThread().interrupt();
+            LOGGER.error("Thread was interrupted while waiting for patient thread");
+        } finally {
+            lock.unlock();
+        }
+    }
+
+    public Lock getLock() {
         return lock;
     }
 

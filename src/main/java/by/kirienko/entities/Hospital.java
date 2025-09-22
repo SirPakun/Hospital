@@ -4,9 +4,10 @@ import java.util.*;
 
 public class Hospital {
     private static final Hospital HOSPITAL = new Hospital();
-    private final List<Cabinet> cabinets = new ArrayList<>();
+    private final List<Cabinet> cabinets;
 
     private Hospital() {
+        this.cabinets = new ArrayList<>();
     }
 
     public static Hospital getInstance() {

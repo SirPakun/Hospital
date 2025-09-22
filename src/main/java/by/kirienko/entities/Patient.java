@@ -30,54 +30,8 @@ public class Patient extends Thread {
 
     @Override
     public void run() {
-
-        boolean lockAcquired = false;
-        Cabinet cabinet = null;
-
-        try {
-            cabinet = CabinetRandomizer.getRandomCabinet();
-            lockAcquired = cabinet.getLock().tryLock(waitingTime, TimeUnit.SECONDS);
-
-            if (lockAcquired) {
-
-                if (!cabinet.isClosed().get()) {
-
-                    LOGGER.info("{} just came in cabinet for {} seconds", this, this.takingTime);
-
-                    cabinet.patientTreating(this);
-
-                    int newHealth = HealthRandomizer.getRandomHealth();
-                    this.setHealth(newHealth);
-
-                    cabinet.enlargeServicedPatients();
-
-                    LOGGER.info("{} just left the cabinet with {} HP", this, this.health);
-
-                    if (cabinet.getServicedPatients().get() == cabinet.MAX_SERVICE_NUMBER) {
-                        cabinet.close();
-                    }
-
-                } else {
-                    cabinet.enlargeLeavedPatients();
-                    LOGGER.info("{} is closed", cabinet);
-                }
-            } else {
-                cabinet.enlargeLeavedPatients();
-                LOGGER.info("{} is done to wait", this);
-            }
-
-        } catch (InterruptedException exception) {
-            Thread.currentThread().interrupt();
-            LOGGER.error("Thread was interrupted while waiting for patient thread");
-        } catch (NoSuchCabinetException exception) {
-            LOGGER.error(exception.getMessage());
-        } finally {
-            if (lockAcquired) {
-                cabinet.getLock().unlock();
-            }
-
-        }
-
+        Cabinet cabinet = CabinetRandomizer.getRandomCabinet();
+        cabinet.enterCabinet(this);
     }
 
     public String getPatientName() {
